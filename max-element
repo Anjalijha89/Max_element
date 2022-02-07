@@ -1,0 +1,14 @@
+package com.company;
+
+public class finding_max_element {
+    public static void main(String[] args){
+        int A[]={34,78,99,90,76,45,23};
+        int max=A[0];
+        for(int i=0;i<A.length;i++){
+            if(A[i]>max){
+               max=A[i];
+            }
+        }
+        System.out.println(max);
+    }
+}
